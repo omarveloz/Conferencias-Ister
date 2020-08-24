@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "351463956781",
+    "firebase_url": "https://db-ister.firebaseio.com",
+    "project_id": "db-ister",
+    "storage_bucket": "db-ister.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351463956781:android:a27047dbcbdc9a7e93f3a4",
+        "android_client_info": {
+          "package_name": "firebase.app.isterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351463956781-pq5acia2vs02if3fgh4mv8vs9qivo3gk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApjzuQjOPxsjC55Ae5PVt96oWmmXaYvO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351463956781-pq5acia2vs02if3fgh4mv8vs9qivo3gk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
