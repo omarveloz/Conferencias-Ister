@@ -1,5 +1,6 @@
 package firebase.app.isterapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.auth.FirebaseAuth
@@ -20,6 +21,13 @@ class InicioActivity : AppCompatActivity() {
         val email = bundle?.getString("email")
         val provider = bundle?.getString("provider")
         setup(email ?: "", provider ?: "")
+
+        //Boton Ingresar
+        btnGo.setOnClickListener {
+            val intento1 = Intent(this, PrincipalActivity::class.java)
+            startActivity(intento1)
+        }
+
     }
 
     private fun setup(email: String, provider: String) {
@@ -33,4 +41,7 @@ class InicioActivity : AppCompatActivity() {
         }
 
     }
+
+    //
+
 }

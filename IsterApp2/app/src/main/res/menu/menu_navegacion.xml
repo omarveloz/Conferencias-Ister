@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inicio"
+        android:title="Inicio"
+        android:icon="@drawable/ic_home"
+        />
+    <item
+        android:id="@+id/expositores"
+        android:title="Expositores"
+        android:icon="@drawable/ic_expositores"
+        />
+    <item
+        android:id="@+id/calendario"
+        android:title="Calendario"
+        android:icon="@drawable/ic_calendario"
+        />
+    <item
+        android:id="@+id/soporte"
+        android:title="Soporte"
+        android:icon="@drawable/ic_soporte"
+        />
+</menu>

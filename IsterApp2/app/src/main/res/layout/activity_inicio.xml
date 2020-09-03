@@ -13,7 +13,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="15dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -26,14 +28,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
-
-                <TextView
-                    android:id="@+id/tv"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:text="Bienvenidx" />
+                android:orientation="vertical"
+                >
 
                 <Space
                     android:layout_width="match_parent"
@@ -53,7 +49,7 @@
                 <TextView
                     android:id="@+id/tvUsuario"
                     android:layout_width="match_parent"
-                    android:layout_height="40dp"
+                    android:layout_height="20dp"
                     android:text="Usuario:" />
 
                 <LinearLayout
@@ -72,10 +68,23 @@
                         android:layout_weight="1"
                         android:backgroundTint="@color/red"
                         android:text="Cerrar Sesión"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/blanco" />
+
+                    <Button
+                        android:id="@+id/btnGo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/trueblue"
+                        android:text="Ingresar al Congreso"
                         android:textColor="@color/blanco" />
 
                 </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_weight="1" />
 
             </LinearLayout>
         </ScrollView>

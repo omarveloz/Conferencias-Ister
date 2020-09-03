@@ -15,7 +15,7 @@ class AuthActivity : AppCompatActivity() {
         setContentView(R.layout.activity_auth)
 
         //Splash
-        Thread.sleep(1500)
+        Thread.sleep(1000)
         setTheme(R.style.AppTheme)
         
         // Configuracion

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacion"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="firebase.app.isterapp.inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicio_to_expositores2"
+            app:destination="@id/expositores" />
+    </fragment>
+    <fragment
+        android:id="@+id/expositores"
+        android:name="firebase.app.isterapp.expositores"
+        android:label="fragment_expositores"
+        tools:layout="@layout/fragment_expositores" >
+        <action
+            android:id="@+id/action_expositores_to_calendario4"
+            app:destination="@id/calendario" />
+    </fragment>
+    <fragment
+        android:id="@+id/calendario"
+        android:name="firebase.app.isterapp.calendario"
+        android:label="fragment_calendario"
+        tools:layout="@layout/fragment_calendario" >
+        <action
+            android:id="@+id/action_calendario_to_soporte3"
+            app:destination="@id/soporte" />
+    </fragment>
+    <fragment
+        android:id="@+id/soporte"
+        android:name="firebase.app.isterapp.soporte"
+        android:label="fragment_soporte"
+        tools:layout="@layout/fragment_soporte" />
+</navigation>

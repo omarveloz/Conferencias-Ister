@@ -1,22 +1,27 @@
 <resources>
 
 
-        <string name="app_name">CongresoAPP</string>
-        <string name="inicio_frag_tv_que_es">¿Qué es Congreso ISTER?</string>
-        <string name="inicio_frag_tv_que_es_resp">El Instituto Universitario Superior Rumiñahui una vez más, cómo todos los años, hace el evento más grande de comunidad tecnológica en los que apasionados por aprender, emprender e innovar se encuentran en un mismo lugar para escuchar a expertos de la industria que durante horas comparten su conocimiento.</string>
-        <string name="inicio_frag_tv_por_que">¿Por qué asistir?</string>
-        <string name="inicio_frag_tv_por_que_resp">Porque esto solo sucede una vez cada año.
+    <string name="app_name">CongresoAPP</string>
+    <string name="inicio_frag_tv_que_es">¿De que trata el CI3 2021?</string>
+    <string name="inicio_frag_tv_que_es_resp">El Instituto Universitario Superior Rumiñahui una vez más, cómo todos los años, hace el evento más grande de comunidad tecnológica en los que apasionados por aprender, emprender e innovar se encuentran en un mismo lugar para escuchar a expertos de la industria que durante horas comparten su conocimiento.</string>
+    <string name="inicio_frag_tv_por_que">¿Cuando se lo realizará?</string>
+    <string name="inicio_frag_tv_por_que_resp">Porque esto solo sucede una vez cada año.
                 Porque en Ecuador el Congreso ISTER es el único evento de la industria tecnológica que reúne a profesionales de altísimo nivel en un solo lugar.
                 Porque en este evento conocerás personas que en el futuro pueden ser tus amigos, tus colegas, tus colaboradores y hasta tus socios.
                 Porque en esta versión todo girará al rededor de la pregunta: ¿Qué habilidades hacen a un gran profesional y lo preparan para los trabajos del futuro? y juntos responderemos lo que esto significa.</string>
-        <string name="inicio_frag_tv_info">Información de la Congreso ISTER Ecuador 2020</string>
-        <string name="inicio_frag_tv_info_resp">
+    <string name="inicio_frag_tv_info">Información de esta edición del congreso</string>
+    <string name="inicio_frag_tv_info_resp">
                 \u0009 &#8226; Es un evento exclusivo para estudiantes del ISTER con matricula activa en ISTER.\n
                 \u0009 &#8226; (Sí esto te apasiona y no tienes una suscripción activa, adquiere ya mismo ).\n
                 \u0009 &#8226; Fecha: Sábado 3 de Agosto de 2021.\n
                 \u0009 &#8226; Lugar: Instituto Rumiñahui.\n
                 \u0009 &#8226; Dirección: Avn. Atahualpa 1701 y 8 de febrero.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
-
+    <string name="informacion1">El Segundo Congreso de Investigación de Investigación e Innovación (CI3 – 2021) es un espacio de discusión y colaboración, para investigadores y profesionales de la academia, la industria y el gobierno, donde se presentarán y debatirán ideas, experiencias y desafíos respecto a las tendencias y avances más recientes en los campos tecnológico y humanístico.</string>
+    <string name="informacion2">El CI3 es organizado por el Instituto Superior Tecnológico Rumiñahui y GDEON. \nSe realizará los días 12-13-14 de mayo del 2021 y el evento acogerá a cientos de participantes, tanto nacionales como internacionales y tendrá como finalidad la divulgación de los resultados de los proyectos y trabajos de investigación que se vienen realizando en las diferentes Instituciones de Educación Superior (IES), centros de investigación y la industria aportando con el cumplimiento del Plan Nacional de Desarrollo 2017-2021.</string>
+    <string name="informacion3">El CI3 presentará dos ejes temáticos principales: TECNOLOGÍA Y DESARROLLO; y EMPRESA Y SOCIEDAD.  \nLos artículos aceptados en cualquiera de las temáticas antes mencionadas (posterior a su revisión y aprobación por parte del Comité Científico).</string>
+    <string name="lema">“LA INVESTIGACIÓN COMO PILAR DE LA EDUCACIÓN DE TERCER NIVEL Y EL MEJORAMIENTO EMPRESARIAL”\n \nEs el lema del CI3, y hace alusión a cómo los avances científicos y la academia en general, deben relacionarse con el sector productivo para apalancar el desarrollo empresarial y estatal.</string>
 
 </resources>
