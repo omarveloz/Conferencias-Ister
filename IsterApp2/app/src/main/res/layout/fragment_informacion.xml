@@ -27,6 +27,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/altoimageview"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/banner" />
 
                 <Space
@@ -40,7 +41,8 @@
                     android:text="@string/inicio_frag_tv_que_es"
                     android:textSize="20sp"
                     android:textColor="@color/trueblue"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -48,7 +50,7 @@
                     android:layout_margin="5dp"
                     android:text="@string/informacion1"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -57,7 +59,8 @@
                     android:text="@string/inicio_frag_tv_por_que"
                     android:textSize="20sp"
                     android:textColor="@color/trueblue"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -65,7 +68,7 @@
                     android:layout_margin="5dp"
                     android:text="@string/informacion2"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"/>
 
                 <Space
                     android:layout_width="match_parent"
@@ -74,6 +77,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/altoimageview"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/banner2" />
 
                 <Space
@@ -87,7 +91,8 @@
                     android:text="@string/inicio_frag_tv_info"
                     android:textSize="20sp"
                     android:textColor="@color/trueblue"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -95,7 +100,7 @@
                     android:layout_margin="5dp"
                     android:text="@string/informacion3"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"/>
 
                 <Space
                     android:layout_width="match_parent"

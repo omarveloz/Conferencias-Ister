@@ -24,7 +24,7 @@ class AuthActivity : AppCompatActivity() {
 
     private fun setup() {
 
-        title="Iniciar Sesion"
+        title="Iniciar Sesión"
 
         btnRegistrar.setOnClickListener{
             if(etEmail.text.isNotEmpty() && etClave.text.isNotEmpty()) {
@@ -49,6 +49,7 @@ class AuthActivity : AppCompatActivity() {
                         etClave.text.toString()).addOnCompleteListener{
 
                     if (it.isSuccessful) {
+
                         showHome(it.result?.user?.email ?: "", ProviderType.BASIC)
                     } else {
                         showAlert()
